@@ -1,0 +1,19 @@
+PLAN OF ATTACK
+
+PHASE ONE: PROOF OF CONCEPT 
+---------------------------
+1. Find a way to convert imperative verbs to third-person past tense.
+2. Find a good source of recipes, ideally in the public domain.
+3. Get a POS Tagger running and apply #1 to a recipe.
+4. Find a list of adverb phrases.
+5. Insert adverb phrases next to verbs in text.
+6. Sort adverb phrase list into emotional categories.
+7. Set up an engine to take recipes and generate one chapter from each of them up to 50000 words, using adverbs from only one category on each recipe. Randomly choose "he", "she" or "they" to apply to each chapter.
+
+PHASE TWO: STORY ARC
+---------------------
+1. Assign names and genders to a set of characters.
+2. Engine selects how many characters to throw into the mix and assigns probabilities to their pairings and their suitability for each other.
+3. In each chapter a behind-the-scenes decision is made based on the probabilities (which update each chapter to reflect events that have occurred in previous chapters) as to what feelings the protagonist has for other characters and whether those feelings result in a relationship forming or breaking up.  These feelings colour which adverbs are used and which protagonist is featured in each chapter, and whether protags are doing the cooking alone or together.
+4. Enhance the story with additional sentences randomly generated (or selected from a corpus) to reflect the feelings of the characters.  E.g. "He basted the chicken slowly, remembering the way Chantal batted her beautiful blue eyes".
+5. Generate or select additional sentences to convey plot events like romances or breakups, and random philosophical musings in tune with the prevalent mood generated for each chapter.
